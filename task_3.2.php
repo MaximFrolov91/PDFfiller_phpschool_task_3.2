@@ -8,7 +8,7 @@ if ($sum >= 100000)
 {
 	echo "TOO MUCH!!! Max value - 100 000";
 }
-elseif ($argc == 2 && (filter_var($argv[1], FILTER_VALIDATE_INT, $filter_options) !== FALSE)) //&& is_int($sum) && $sum < 100000)
+elseif ($argc == 2 && (filter_var($argv[1], FILTER_VALIDATE_INT, $filter_options) !== FALSE))
 {
 	if ($sum >= 500)
 	{
